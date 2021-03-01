@@ -86,3 +86,21 @@ header .row .row {
 .small-wrapper .row .row {
     text-align: left;
 }
+
+/* Conctat Me */
+.small-wrapper .row .row {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.contact_me .row .row [class*="col-"] {
+    border-bottom: 1px solid lightgray;
+}
+
+.message {
+    padding-bottom: 50px;;
+}
+
+.contact_me button {
+    margin: 15px 30px;
+}
