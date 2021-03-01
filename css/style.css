@@ -45,3 +45,44 @@ header .row .row {
 .title-banner img {
     width: 200px;
 }
+
+/* MAIN */
+/* Portfolio */
+.portfolio {
+    text-align: center;
+}
+
+.title-main {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.portfolio .row .row {
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+/* png è la classe "Test" che sostituirà la immagini per questo esercizio */
+.png {
+    height: 250px;
+    background-color: cornflowerblue;
+    margin-bottom: 30px;
+    border-radius: 15px;   
+}
+
+/* About */
+.about {
+    background-color: turquoise;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.small-wrapper{
+    max-width: 970px;
+    margin: auto;
+}
+
+.small-wrapper .row .row {
+    text-align: left;
+}
