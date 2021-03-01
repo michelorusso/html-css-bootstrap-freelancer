@@ -104,3 +104,23 @@ header .row .row {
 .contact_me button {
     margin: 15px 30px;
 }
+
+/* FOOTER */
+/* Follow Us */
+.follow-us {
+    background-color: #4c6f92;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #204060;
+    color: white;
+    text-align: center;
+}
+
+.copyright h4 {
+    padding: 25px 0;
+}
