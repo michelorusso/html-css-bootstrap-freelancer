@@ -1,0 +1,47 @@
+/* COMMON */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+/* HEADER */
+/* Nav */
+header {
+    color: white;
+}
+
+.nav {
+    background-color: #204060;
+}
+
+header .row .row {
+    text-align: right;
+}
+
+.nav {
+    padding: 20px 0;
+}
+
+.burger {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Banner */
+.banner {
+    background-color: turquoise;
+}
+
+.title-banner {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.title-banner img {
+    width: 200px;
+}
