@@ -125,23 +125,32 @@ header li {
 }
 
 /* Conctat Me */
-.small-wrapper .row .row {
-    margin-right: 30px;
-    margin-left: 30px;
+.information input,
+.message {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 17px;
 }
 
-.contact_me .row .row [class*="col-"] {
-    border-bottom: 1px solid lightgray;
+.information input {
+    padding: 25px 0;
 }
 
 .message {
-    padding-bottom: 50px;;
+    padding: 0;
 }
 
-.contact_me button {
-    margin: 15px 30px;
+.information input::placeholder,
+.information textarea::placeholder {
+    color: #2d3e4f;
 }
 
+.send_btn {
+    margin: 15px 0;
+}
 /* FOOTER */
 /* Follow Us */
 .follow-us {
