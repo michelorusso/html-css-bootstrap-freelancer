@@ -4,87 +4,124 @@ a {
     color: white;
 }
 
-img {
-    width: 100%;
+.section {
+    padding: 15px 0;
 }
-/* HEADER */
-/* Nav */
-header {
+
+.title-section {
+    text-transform: uppercase;
+}
+
+.green-section {
+    background-color: #1abc9c;
     color: white;
 }
-
-.nav {
-    background-color: #204060;
+.star {
+    margin-bottom: 25px;
 }
 
-header .row .row {
-    text-align: right;
+.star i {
+    font-size: 20px;
+}
+.star::before {
+    content: " ";
+    display: inline-block;
+    width: 70px;
+    height: 7px;
+    border-top: 3px solid;
+    margin-right: 10px;
 }
 
-.nav {
+.star::after {
+    content: " ";
+    display: inline-block;
+    width: 70px;
+    height: 7px;
+    border-top: 3px solid;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* HEADER */
+/* Nav */
+header .nav-top {
+    background-color: #2d3e4f;
+    color: white;
     padding: 20px 0;
+    text-transform: uppercase;
 }
 
-.burger {
-    border: 1px solid white;
-    padding: 5px 10px;
+.logo {
+    font-size: 20px;
+}
+
+.nav-top .menu,
+.nav-top .burger {
+    font-size: 13px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.burger a {
+    border: 1px solid lightgray;
+    padding: 4px 8px;
     border-radius: 5px;
 }
-
 /* Banner */
-.banner {
-    background-color: turquoise;
-}
-
-.title-banner {
-    text-align: center;
-    margin: auto;
-    padding: 20px 0;
-}
-
-.title-banner img {
+.avatar img {
     width: 200px;
+}
+
+.avatar{
+    text-transform: uppercase;
 }
 
 /* MAIN */
 /* Portfolio */
-.portfolio {
-    text-align: center;
-}
-
-.title-main {
-    padding-bottom: 15px;
-    text-align: center;
-}
-
-.portfolio .row .row {
-    margin-left: 20px;
-    margin-right: 20px; 
-}
-
-/* png è la classe "Test" che sostituirà la immagini per questo esercizio */
-.png {
-    height: 250px;
-    background-color: cornflowerblue;
+.box-img {
     margin-bottom: 30px;
-    border-radius: 15px;   
+}
+
+.box-img img {
+    border-radius: 10px;
 }
 
 /* About */
-.about {
-    background-color: turquoise;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
 .small-wrapper{
-    max-width: 970px;
+    width: 70%;
+    max-width: 900px;
     margin: auto;
 }
 
-.small-wrapper .row .row {
-    text-align: left;
+.about p {
+    font-size: 16px;
+}
+
+.about button i {
+    margin-right: 5px;
+}
+
+.btn_download {
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn_download:hover{
+    background-color: white;
+    color: #1abc9c;
 }
 
 /* Conctat Me */
