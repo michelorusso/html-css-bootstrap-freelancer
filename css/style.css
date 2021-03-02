@@ -144,7 +144,7 @@ header li {
 }
 
 .information input::placeholder,
-.information textarea::placeholder {
+.message.form-control::placeholder {
     color: #2d3e4f;
 }
 
